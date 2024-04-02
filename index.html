@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercício 8 - Idade do Aluno</title>
+</head>
+<body>
+    <h1>Exercício 1</h1>
+    <div class="tudo">
+        <h2>Informe a idade do aluno:</h2>
+        <input type="number" id="idadeInput">
+        <button onclick="exibirIdade()" class="button-59" role="button">Enviar</button>
+        <p id="idadeExibida"></p>
+    </div>
+  
+  <script>
+    function exibirIdade() {
+      var idade = document.getElementById("idadeInput").value;
+      document.getElementById("idadeExibida").textContent = "A idade informada foi: " + idade;
+    }
+  </script>
+</body>
+</html>
